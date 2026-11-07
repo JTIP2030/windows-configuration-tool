@@ -1,0 +1,13 @@
+# Session logs written next to the script
+Set-NICConfig_*.log
+*.log
+
+# PowerShell artifacts
+*.ps1xml
+**/.VSIXCounter
+
+# OS / editor noise
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
